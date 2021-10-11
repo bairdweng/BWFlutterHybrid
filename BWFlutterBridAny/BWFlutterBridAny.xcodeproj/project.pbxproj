@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		784CC812EEA45670542B0BC9 /* libPods-BWFlutterBridAny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D6E2FDB7BAF877D4095272 /* libPods-BWFlutterBridAny.a */; };
+		DA2CD1C727140B0000061F06 /* FLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CD1C627140B0000061F06 /* FLBaseViewController.m */; };
+		DA2CD1CF271428C500061F06 /* ExampleVc1.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CD1CD271428C500061F06 /* ExampleVc1.m */; };
+		DA2CD1D0271428C500061F06 /* ExampleVc1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2CD1CE271428C500061F06 /* ExampleVc1.xib */; };
+		DAB5609427116D4300168E7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5609327116D4300168E7B /* AppDelegate.m */; };
+		DAB5609727116D4300168E7B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5609627116D4300168E7B /* SceneDelegate.m */; };
+		DAB5609A27116D4300168E7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5609927116D4300168E7B /* ViewController.m */; };
+		DAB5609D27116D4300168E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB5609B27116D4300168E7B /* Main.storyboard */; };
+		DAB5609F27116D4400168E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB5609E27116D4400168E7B /* Assets.xcassets */; };
+		DAB560A227116D4400168E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB560A027116D4400168E7B /* LaunchScreen.storyboard */; };
+		DAB560A527116D4400168E7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB560A427116D4400168E7B /* main.m */; };
+		DAB560AF27116D4400168E7B /* BWFlutterBridAnyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB560AE27116D4400168E7B /* BWFlutterBridAnyTests.m */; };
+		DAB560BA27116D4400168E7B /* BWFlutterBridAnyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB560B927116D4400168E7B /* BWFlutterBridAnyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB560AB27116D4400168E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB5608727116D4300168E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB5608E27116D4300168E7B;
+			remoteInfo = BWFlutterBridAny;
+		};
+		DAB560B627116D4400168E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB5608727116D4300168E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB5608E27116D4300168E7B;
+			remoteInfo = BWFlutterBridAny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A41FBAE6BA2193BE5DCE3DD /* Pods-BWFlutterBridAny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWFlutterBridAny.debug.xcconfig"; path = "Target Support Files/Pods-BWFlutterBridAny/Pods-BWFlutterBridAny.debug.xcconfig"; sourceTree = "<group>"; };
+		B22DF88768B11AC0E42F0674 /* Pods-BWFlutterBridAny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWFlutterBridAny.release.xcconfig"; path = "Target Support Files/Pods-BWFlutterBridAny/Pods-BWFlutterBridAny.release.xcconfig"; sourceTree = "<group>"; };
+		C8D6E2FDB7BAF877D4095272 /* libPods-BWFlutterBridAny.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWFlutterBridAny.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2CD1C527140B0000061F06 /* FLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLBaseViewController.h; sourceTree = "<group>"; };
+		DA2CD1C627140B0000061F06 /* FLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLBaseViewController.m; sourceTree = "<group>"; };
+		DA2CD1CC271428C500061F06 /* ExampleVc1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleVc1.h; sourceTree = "<group>"; };
+		DA2CD1CD271428C500061F06 /* ExampleVc1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleVc1.m; sourceTree = "<group>"; };
+		DA2CD1CE271428C500061F06 /* ExampleVc1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleVc1.xib; sourceTree = "<group>"; };
+		DAB5608F27116D4300168E7B /* BWFlutterBridAny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWFlutterBridAny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB5609227116D4300168E7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB5609327116D4300168E7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB5609527116D4300168E7B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DAB5609627116D4300168E7B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DAB5609827116D4300168E7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB5609927116D4300168E7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB5609C27116D4300168E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB5609E27116D4400168E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB560A127116D4400168E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB560A327116D4400168E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB560A427116D4400168E7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB560AA27116D4400168E7B /* BWFlutterBridAnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWFlutterBridAnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB560AE27116D4400168E7B /* BWFlutterBridAnyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWFlutterBridAnyTests.m; sourceTree = "<group>"; };
+		DAB560B027116D4400168E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB560B527116D4400168E7B /* BWFlutterBridAnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWFlutterBridAnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB560B927116D4400168E7B /* BWFlutterBridAnyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWFlutterBridAnyUITests.m; sourceTree = "<group>"; };
+		DAB560BB27116D4400168E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB5608C27116D4300168E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784CC812EEA45670542B0BC9 /* libPods-BWFlutterBridAny.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB560A727116D4400168E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB560B227116D4400168E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF4C25797B2D8E1BDDCF3318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A41FBAE6BA2193BE5DCE3DD /* Pods-BWFlutterBridAny.debug.xcconfig */,
+				B22DF88768B11AC0E42F0674 /* Pods-BWFlutterBridAny.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBAA1C8BAC57D29A169B6E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8D6E2FDB7BAF877D4095272 /* libPods-BWFlutterBridAny.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA2CD1C327140AE700061F06 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				DA2CD1C427140AF100061F06 /* Base */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		DA2CD1C427140AF100061F06 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DA2CD1C527140B0000061F06 /* FLBaseViewController.h */,
+				DA2CD1C627140B0000061F06 /* FLBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DA2CD1C827140E7800061F06 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				DA2CD1CC271428C500061F06 /* ExampleVc1.h */,
+				DA2CD1CD271428C500061F06 /* ExampleVc1.m */,
+				DA2CD1CE271428C500061F06 /* ExampleVc1.xib */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		DAB5608627116D4300168E7B = {
+			isa = PBXGroup;
+			children = (
+				DAB5609127116D4300168E7B /* BWFlutterBridAny */,
+				DAB560AD27116D4400168E7B /* BWFlutterBridAnyTests */,
+				DAB560B827116D4400168E7B /* BWFlutterBridAnyUITests */,
+				DAB5609027116D4300168E7B /* Products */,
+				BF4C25797B2D8E1BDDCF3318 /* Pods */,
+				CBAA1C8BAC57D29A169B6E1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB5609027116D4300168E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5608F27116D4300168E7B /* BWFlutterBridAny.app */,
+				DAB560AA27116D4400168E7B /* BWFlutterBridAnyTests.xctest */,
+				DAB560B527116D4400168E7B /* BWFlutterBridAnyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB5609127116D4300168E7B /* BWFlutterBridAny */ = {
+			isa = PBXGroup;
+			children = (
+				DA2CD1C827140E7800061F06 /* Examples */,
+				DA2CD1C327140AE700061F06 /* Flutter */,
+				DAB5609227116D4300168E7B /* AppDelegate.h */,
+				DAB5609327116D4300168E7B /* AppDelegate.m */,
+				DAB5609527116D4300168E7B /* SceneDelegate.h */,
+				DAB5609627116D4300168E7B /* SceneDelegate.m */,
+				DAB5609827116D4300168E7B /* ViewController.h */,
+				DAB5609927116D4300168E7B /* ViewController.m */,
+				DAB5609B27116D4300168E7B /* Main.storyboard */,
+				DAB5609E27116D4400168E7B /* Assets.xcassets */,
+				DAB560A027116D4400168E7B /* LaunchScreen.storyboard */,
+				DAB560A327116D4400168E7B /* Info.plist */,
+				DAB560A427116D4400168E7B /* main.m */,
+			);
+			path = BWFlutterBridAny;
+			sourceTree = "<group>";
+		};
+		DAB560AD27116D4400168E7B /* BWFlutterBridAnyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB560AE27116D4400168E7B /* BWFlutterBridAnyTests.m */,
+				DAB560B027116D4400168E7B /* Info.plist */,
+			);
+			path = BWFlutterBridAnyTests;
+			sourceTree = "<group>";
+		};
+		DAB560B827116D4400168E7B /* BWFlutterBridAnyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB560B927116D4400168E7B /* BWFlutterBridAnyUITests.m */,
+				DAB560BB27116D4400168E7B /* Info.plist */,
+			);
+			path = BWFlutterBridAnyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB5608E27116D4300168E7B /* BWFlutterBridAny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB560BE27116D4400168E7B /* Build configuration list for PBXNativeTarget "BWFlutterBridAny" */;
+			buildPhases = (
+				35A0EC186CBC250A4DE1C540 /* [CP] Check Pods Manifest.lock */,
+				FD891AC91112A6F500B11641 /* [CP-User] Run Flutter Build my_flutter Script */,
+				DAB5608B27116D4300168E7B /* Sources */,
+				DAB5608C27116D4300168E7B /* Frameworks */,
+				DAB5608D27116D4300168E7B /* Resources */,
+				AA3B6BA20AAB444D43AF38E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWFlutterBridAny;
+			productName = BWFlutterBridAny;
+			productReference = DAB5608F27116D4300168E7B /* BWFlutterBridAny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB560A927116D4400168E7B /* BWFlutterBridAnyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB560C127116D4400168E7B /* Build configuration list for PBXNativeTarget "BWFlutterBridAnyTests" */;
+			buildPhases = (
+				DAB560A627116D4400168E7B /* Sources */,
+				DAB560A727116D4400168E7B /* Frameworks */,
+				DAB560A827116D4400168E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB560AC27116D4400168E7B /* PBXTargetDependency */,
+			);
+			name = BWFlutterBridAnyTests;
+			productName = BWFlutterBridAnyTests;
+			productReference = DAB560AA27116D4400168E7B /* BWFlutterBridAnyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB560B427116D4400168E7B /* BWFlutterBridAnyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB560C427116D4400168E7B /* Build configuration list for PBXNativeTarget "BWFlutterBridAnyUITests" */;
+			buildPhases = (
+				DAB560B127116D4400168E7B /* Sources */,
+				DAB560B227116D4400168E7B /* Frameworks */,
+				DAB560B327116D4400168E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB560B727116D4400168E7B /* PBXTargetDependency */,
+			);
+			name = BWFlutterBridAnyUITests;
+			productName = BWFlutterBridAnyUITests;
+			productReference = DAB560B527116D4400168E7B /* BWFlutterBridAnyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB5608727116D4300168E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DAB5608E27116D4300168E7B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DAB560A927116D4400168E7B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DAB5608E27116D4300168E7B;
+					};
+					DAB560B427116D4400168E7B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DAB5608E27116D4300168E7B;
+					};
+				};
+			};
+			buildConfigurationList = DAB5608A27116D4300168E7B /* Build configuration list for PBXProject "BWFlutterBridAny" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB5608627116D4300168E7B;
+			productRefGroup = DAB5609027116D4300168E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB5608E27116D4300168E7B /* BWFlutterBridAny */,
+				DAB560A927116D4400168E7B /* BWFlutterBridAnyTests */,
+				DAB560B427116D4400168E7B /* BWFlutterBridAnyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB5608D27116D4300168E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB560A227116D4400168E7B /* LaunchScreen.storyboard in Resources */,
+				DA2CD1D0271428C500061F06 /* ExampleVc1.xib in Resources */,
+				DAB5609F27116D4400168E7B /* Assets.xcassets in Resources */,
+				DAB5609D27116D4300168E7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB560A827116D4400168E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB560B327116D4400168E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35A0EC186CBC250A4DE1C540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BWFlutterBridAny-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA3B6BA20AAB444D43AF38E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BWFlutterBridAny/Pods-BWFlutterBridAny-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BWFlutterBridAny/Pods-BWFlutterBridAny-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BWFlutterBridAny/Pods-BWFlutterBridAny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD891AC91112A6F500B11641 /* [CP-User] Run Flutter Build my_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build my_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB5608B27116D4300168E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB5609A27116D4300168E7B /* ViewController.m in Sources */,
+				DAB5609427116D4300168E7B /* AppDelegate.m in Sources */,
+				DAB560A527116D4400168E7B /* main.m in Sources */,
+				DAB5609727116D4300168E7B /* SceneDelegate.m in Sources */,
+				DA2CD1C727140B0000061F06 /* FLBaseViewController.m in Sources */,
+				DA2CD1CF271428C500061F06 /* ExampleVc1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB560A627116D4400168E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB560AF27116D4400168E7B /* BWFlutterBridAnyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB560B127116D4400168E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB560BA27116D4400168E7B /* BWFlutterBridAnyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB560AC27116D4400168E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB5608E27116D4300168E7B /* BWFlutterBridAny */;
+			targetProxy = DAB560AB27116D4400168E7B /* PBXContainerItemProxy */;
+		};
+		DAB560B727116D4400168E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB5608E27116D4300168E7B /* BWFlutterBridAny */;
+			targetProxy = DAB560B627116D4400168E7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB5609B27116D4300168E7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB5609C27116D4300168E7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB560A027116D4400168E7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB560A127116D4400168E7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB560BC27116D4400168E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAB560BD27116D4400168E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB560BF27116D4400168E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A41FBAE6BA2193BE5DCE3DD /* Pods-BWFlutterBridAny.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6747MGQ837;
+				INFOPLIST_FILE = BWFlutterBridAny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbw.BWFlutterBridAny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB560C027116D4400168E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22DF88768B11AC0E42F0674 /* Pods-BWFlutterBridAny.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6747MGQ837;
+				INFOPLIST_FILE = BWFlutterBridAny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbw.BWFlutterBridAny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB560C227116D4400168E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6747MGQ837;
+				INFOPLIST_FILE = BWFlutterBridAnyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbw.BWFlutterBridAnyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWFlutterBridAny.app/BWFlutterBridAny";
+			};
+			name = Debug;
+		};
+		DAB560C327116D4400168E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6747MGQ837;
+				INFOPLIST_FILE = BWFlutterBridAnyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbw.BWFlutterBridAnyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWFlutterBridAny.app/BWFlutterBridAny";
+			};
+			name = Release;
+		};
+		DAB560C527116D4400168E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6747MGQ837;
+				INFOPLIST_FILE = BWFlutterBridAnyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbw.BWFlutterBridAnyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BWFlutterBridAny;
+			};
+			name = Debug;
+		};
+		DAB560C627116D4400168E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6747MGQ837;
+				INFOPLIST_FILE = BWFlutterBridAnyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bbw.BWFlutterBridAnyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BWFlutterBridAny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB5608A27116D4300168E7B /* Build configuration list for PBXProject "BWFlutterBridAny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB560BC27116D4400168E7B /* Debug */,
+				DAB560BD27116D4400168E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB560BE27116D4400168E7B /* Build configuration list for PBXNativeTarget "BWFlutterBridAny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB560BF27116D4400168E7B /* Debug */,
+				DAB560C027116D4400168E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB560C127116D4400168E7B /* Build configuration list for PBXNativeTarget "BWFlutterBridAnyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB560C227116D4400168E7B /* Debug */,
+				DAB560C327116D4400168E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB560C427116D4400168E7B /* Build configuration list for PBXNativeTarget "BWFlutterBridAnyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB560C527116D4400168E7B /* Debug */,
+				DAB560C627116D4400168E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB5608727116D4300168E7B /* Project object */;
+}
