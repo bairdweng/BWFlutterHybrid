@@ -33,6 +33,7 @@ class _HomePageState extends State<HomePage> {
     });
     // 调用back方法
     // MyChannel.baseVcChannel.invokeListMethod("back");
+    MyChannel.back();
   }
 
   @override

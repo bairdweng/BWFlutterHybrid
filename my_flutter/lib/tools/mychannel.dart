@@ -1,12 +1,9 @@
 import 'package:flutter/services.dart';
 
-class BaseVcChannel {
+class MyChannel {
+  const MyChannel();
   static const baseVcChannel = MethodChannel('BaseControllerChannel');
-  back() {
+  static back() {
     baseVcChannel.invokeListMethod("back");
   }
-}
-
-class MyChannel {
-  //  const baseChannel = BaseVcChannel();
 }

@@ -9,4 +9,5 @@
 #import <Flutter/FlutterViewController.h>
 @interface FLBaseViewController : FlutterViewController
 - (instancetype)initWithEnterPointName:(NSString *)name;
+- (void)handleMethods:(FlutterMethodCall *)call resultBlock:(FlutterMethodCallHandler *)block;
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		784CC812EEA45670542B0BC9 /* libPods-BWFlutterBridAny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D6E2FDB7BAF877D4095272 /* libPods-BWFlutterBridAny.a */; };
+		99D95FA82715E239008C47AF /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D95FA62715E239008C47AF /* CallMethodViewController.m */; };
+		99D95FA92715E239008C47AF /* CallMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D95FA72715E239008C47AF /* CallMethodViewController.xib */; };
 		DA2CD1C727140B0000061F06 /* FLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CD1C627140B0000061F06 /* FLBaseViewController.m */; };
 		DA2CD1CF271428C500061F06 /* ExampleVc1.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CD1CD271428C500061F06 /* ExampleVc1.m */; };
 		DA2CD1D0271428C500061F06 /* ExampleVc1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2CD1CE271428C500061F06 /* ExampleVc1.xib */; };
@@ -41,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		8A41FBAE6BA2193BE5DCE3DD /* Pods-BWFlutterBridAny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWFlutterBridAny.debug.xcconfig"; path = "Target Support Files/Pods-BWFlutterBridAny/Pods-BWFlutterBridAny.debug.xcconfig"; sourceTree = "<group>"; };
+		99D95FA52715E239008C47AF /* CallMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallMethodViewController.h; sourceTree = "<group>"; };
+		99D95FA62715E239008C47AF /* CallMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
+		99D95FA72715E239008C47AF /* CallMethodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallMethodViewController.xib; sourceTree = "<group>"; };
 		B22DF88768B11AC0E42F0674 /* Pods-BWFlutterBridAny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWFlutterBridAny.release.xcconfig"; path = "Target Support Files/Pods-BWFlutterBridAny/Pods-BWFlutterBridAny.release.xcconfig"; sourceTree = "<group>"; };
 		C8D6E2FDB7BAF877D4095272 /* libPods-BWFlutterBridAny.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWFlutterBridAny.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2CD1C527140B0000061F06 /* FLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLBaseViewController.h; sourceTree = "<group>"; };
@@ -134,6 +139,9 @@
 				DA2CD1CC271428C500061F06 /* ExampleVc1.h */,
 				DA2CD1CD271428C500061F06 /* ExampleVc1.m */,
 				DA2CD1CE271428C500061F06 /* ExampleVc1.xib */,
+				99D95FA52715E239008C47AF /* CallMethodViewController.h */,
+				99D95FA62715E239008C47AF /* CallMethodViewController.m */,
+				99D95FA72715E239008C47AF /* CallMethodViewController.xib */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -306,6 +314,7 @@
 				DAB560A227116D4400168E7B /* LaunchScreen.storyboard in Resources */,
 				DA2CD1D0271428C500061F06 /* ExampleVc1.xib in Resources */,
 				DAB5609F27116D4400168E7B /* Assets.xcassets in Resources */,
+				99D95FA92715E239008C47AF /* CallMethodViewController.xib in Resources */,
 				DAB5609D27116D4300168E7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +395,7 @@
 				DAB5609A27116D4300168E7B /* ViewController.m in Sources */,
 				DAB5609427116D4300168E7B /* AppDelegate.m in Sources */,
 				DAB560A527116D4400168E7B /* main.m in Sources */,
+				99D95FA82715E239008C47AF /* CallMethodViewController.m in Sources */,
 				DAB5609727116D4300168E7B /* SceneDelegate.m in Sources */,
 				DA2CD1C727140B0000061F06 /* FLBaseViewController.m in Sources */,
 				DA2CD1CF271428C500061F06 /* ExampleVc1.m in Sources */,
@@ -494,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -547,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
